@@ -5,23 +5,23 @@ require(textcat)
 require(tidyverse)
 require(stargazer)
 
-freq_rn <- read_csv("word_freq_rn.csv", col_types = cols(...1 = col_skip())) %>% 
+freq_rn <- read_csv("data/word_freq_rn.csv", col_types = cols(...1 = col_skip())) %>% 
   mutate(word = as.factor(word)) %>% 
   mutate(word = fct_reorder(word, word_count, .desc = TRUE)) %>% 
   mutate(party = as.factor('National Rally'))
-freq_afd <- read_csv("word_freq_afd.csv", col_types = cols(...1 = col_skip())) %>% 
+freq_afd <- read_csv("data/word_freq_afd.csv", col_types = cols(...1 = col_skip())) %>% 
   mutate(word = as.factor(word)) %>% 
   mutate(word = fct_reorder(word, word_count, .desc = TRUE)) %>% 
   mutate(party = as.factor('Alternative for Germany'))
-freq_sd <- read_csv("word_freq_sd.csv", col_types = cols(...1 = col_skip())) %>% 
+freq_sd <- read_csv("data/word_freq_sd.csv", col_types = cols(...1 = col_skip())) %>% 
   mutate(word = as.factor(word)) %>% 
   mutate(word = fct_reorder(word, word_count, .desc = TRUE)) %>% 
   mutate(party = as.factor('Sweden Democrats'))
-freq_dpp <- read_csv("word_freq_dpp.csv", col_types = cols(...1 = col_skip())) %>% 
+freq_dpp <- read_csv("data/word_freq_dpp.csv", col_types = cols(...1 = col_skip())) %>% 
   mutate(word = as.factor(word)) %>% 
   mutate(word = fct_reorder(word, word_count, .desc = TRUE)) %>% 
   mutate(party = as.factor("Danish People's Party")) 
-freq_vb <- read_csv("word_freq_vb.csv", col_types = cols(...1 = col_skip())) %>% 
+freq_vb <- read_csv("data/word_freq_vb.csv", col_types = cols(...1 = col_skip())) %>% 
   mutate(word = as.factor(word)) %>% 
   mutate(word = fct_reorder(word, word_count, .desc = TRUE)) %>% 
   mutate(party = as.factor("Vlaams Belang")) 
