@@ -8,7 +8,7 @@
 
 # User-specific files
 .Ruserdata
-
+.Rproj
 
 # Output files from R CMD build
 /*.tar.gz
