@@ -12,7 +12,7 @@ In the package is setup.R, which performs the necessary transformations and crea
 
 I have also packaged **plot_counts()**, which leverages [ggpubr()](https://rpkgs.datanovia.com/ggpubr/) to generate plots for each frequency table. 
 
-### Setup.R
+### setup.R
 
 Running this file provides you with mutable dataframes of each frequency table.
 
