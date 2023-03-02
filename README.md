@@ -19,8 +19,8 @@ Running this file provides you with mutable dataframes of each frequency table.
 ### ```plot_counts()```
 
 Takes five arguments:
-1. **nation**: Frequency table to be plotted. Also supplies figure with [party_name].
-2. **viz**: Choice of color for the figure (defaults to Navy)
-3. **n_tokens**: Number of tokens to be plotted (defaults to 10)
-4. **figure_no**: Number to be added to figure title; determines output name of [save].
-5. **save**: Whether or not to render the plot as a .png (defaults to TRUE).
+1. `nation`: Frequency table to be plotted. Also supplies figure with [party_name].
+2. `viz`: Choice of color for the figure (defaults to Navy)
+3. `n_tokens`: Number of tokens to be plotted (defaults to 10)
+4. `figure_no`: Number to be added to figure title; determines output name of [save].
+5. `save`: Whether or not to render the plot as a .png (defaults to TRUE).
