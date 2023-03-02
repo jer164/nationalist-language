@@ -8,7 +8,7 @@ Currently, the uses of these data are a bit limited. I am still in the process o
 
 ## Included Functionality
 
-In the package is setup.R, which performs the necessary transformations and creates a plotting function. These DataFrames are frequency tables of the tokens contained in the corpora I constructed for each party. These represent a minimal, albet still demonstrative representation of the topical focuses for each party entering 2020. 
+In this repo is `setup.R`, which performs the necessary transformations and creates a plotting function. These DataFrames are frequency tables of the tokens contained in the corpora I constructed for each party. These represent a minimal, albet still demonstrative representation of the topical focuses for each party entering 2020. 
 
 I have also packaged `plot_counts()`, which leverages [ggpubr()](https://rpkgs.datanovia.com/ggpubr/) to generate plots for each frequency table. 
 
